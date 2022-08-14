@@ -5,7 +5,7 @@ TEAM HCSN (Html, Css, javaScript, Node.js)
 
 Di sini terdapat web2 hasil karya kita semua,
 yang berkobalorasi semuanya menjadi satu,
-tak tahu wujudnya. Namun kenangannya nyata
+tak tahu wujudnya. Namun kenanggannya nyata
 
 Sebuah teori tak mampu untuk memuaskan penempuhnya.
 Hingga teori tersebut menjadi kenyataan.
