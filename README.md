@@ -3,23 +3,24 @@
 PROYEK WEB DEVELOPMENT PROGATE
 TEAM HCSN (Html, Css, javaScript, Node.js)
 
-Di sini terdapat web2 hasil karya kita semua,
-yang berkobalorasi semuanya menjadi satu,
-tak tahu wujudnya. Namun kenanggannya nyata
+Di sini terdapat web-web hasil karya kita semua,
+yang berkobalorasi menjadi satu untuk menciptakan karya indah,
+tak tahu wujudnya. Namun kenanggannya nyata.
 
 Sebuah teori tak mampu untuk memuaskan penempuhnya.
-Hingga teori tersebut menjadi kenyataan.
+Hingga teori tersebut direalisasikan dan akhirnya berbentuk karya kenyataan.
 Disinilah kita menncurahkan segala daya.
 Agar segala usaha kita menjadi sebuah kemahiran.
 
-Eitss. satu lagi...
+
+Eitss. tunggu dulu...
 Semua itu ada prosesnya.
 Dan proses tak dapat dinikmati kecuali yang menitinya.
 terkadang kita diberikan oleh sang penguasa Ulat dan Petir.
 Yang mana keduanya itu menjijikkan dan menakutkan.
 Tapi suatu ketika ulat itu akan menjadi kupu-kupu.
 dan petir itu akan pergi lalu muncullah pelangi.
-kedua itulah bagaikan yang namanya proses.
+seperti itu bentuk proses yang awalnya akan ada ketakutan dan kekhawatiran, tapi pada akhirnya akan membahagiakan.
 
 
 Anggota Team
