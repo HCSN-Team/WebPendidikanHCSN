@@ -1,4 +1,4 @@
-# WebPendidikanHCSN
+# Web Pendidikan HCSN
 
 PROYEK WEB DEVELOPMENT PROGATE
 TEAM HCSN (Html, Css, javaScript, Node.js)
@@ -28,5 +28,3 @@ Anggota Team
 3. Dwi Metaliana Putri
 4. Muhammad Cahyo W.
 5. Hanif Azmi Hafidh
-
-a
