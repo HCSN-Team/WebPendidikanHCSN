@@ -16,11 +16,11 @@ Agar segala usaha kita menjadi sebuah kemahiran.
 Eitss. tunggu dulu...
 Semua itu ada prosesnya.
 Dan proses tak dapat dinikmati kecuali yang menitinya.
-terkadang kita diberikan oleh sang penguasa Ulat dan Petir.
+Terkadang kita diberikan oleh sang penguasa Ulat dan Petir.
 Yang mana keduanya itu menjijikkan dan menakutkan.
 Tapi suatu ketika ulat itu akan menjadi kupu-kupu.
 dan petir itu akan pergi lalu muncullah pelangi.
-seperti itu bentuk proses yang awalnya akan ada ketakutan dan kekhawatiran, tapi pada akhirnya akan membahagiakan.
+seperti itulah bentuk proses, yang awalnya akan ada ketakutan dan kekhawatiran, tapi pada akhirnya akan membahagiakan.
 
 
 Anggota Team
