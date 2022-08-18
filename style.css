@@ -12,9 +12,9 @@
 body  {
     margin : 0;
     padding : 0;
-    background-color: #101010;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
-    background-image: radial-gradient(circle farthest-corner at top right, rgba(0,0,255, .2), rgba(255,0,0, .1), rgba(0,0,0, 1));
+
 }
 
 * {
@@ -88,9 +88,6 @@ body  {
 .container-lesson {
     margin : 50px auto;
     width: 100%;
-    padding: 30px;
-    box-sizing: border-box;
-    box-sizing: border-box;    
     text-align: center;    
 }
 
@@ -98,11 +95,12 @@ body  {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
     width: 80%;
-    gap: 10px;
+    gap: 15px;
     margin : 50px auto;
     padding: 5px;
     box-sizing: border-box;
-    text-align: center;
+    place-items: center;
+
 
 }
 
@@ -127,8 +125,7 @@ h2.lesson-tittle {
 
 .overlay {
     position: absolute;
-    /* background-color: rgba(0, 0, 255, .1); */
-    background-image: line-gradient(circle farthest-corner at bottom left , rgba(0, 0, 255, .1), rgba(0,0,0, 1) );
+    background-color: rgba(0,0,0, .6);
     border-radius: 5px;
     top: 0;
     bottom: 0;
@@ -136,20 +133,18 @@ h2.lesson-tittle {
     right: 0;
     box-sizing: border-box;
     padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     display: none;
+    flex-wrap: wrap;
 }
 
 .overlay h6 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
     color: white;
     text-align: start;
 }
 .overlay p {
-    font-size: .8em;
+    font-size: .85em;
     color: white;
     font-weight: 400;
     text-align: start;
@@ -178,3 +173,5 @@ h2.lesson-tittle {
     color: var(--text-color);
     font-weight: 500;
 }
+
+

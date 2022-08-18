@@ -13,20 +13,25 @@ body, html {
 
 /*###################################################################################################################################################################*/
 /*Bagian Header gess! */
-.header{
+.navbar{
   height: 100px;
+  width: 100%;
   background: rgba( 0, 0, 0, 0.3 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width: 100%;
   position: fixed;
   top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 10;
 }
-.container-header{
+
+.navbar img {
+  width: 20%;
+}
+/* .container-header{
   width: 80%;
   margin: 0 auto;
 }
@@ -40,7 +45,7 @@ body, html {
 }
 .header-right{
   float: right;
-}
+} */
 .header-right a{
   color: white;
   text-decoration: none;

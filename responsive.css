@@ -5,8 +5,15 @@
         padding: 15px;
     }
 
-/* end if hover jurusan */
 
+    .overlay h6 {
+        font-size: 1em;
+    }
+    .overlay p {
+        font-size: .7em;
+    }
+
+/* end if hover jurusan */
 
     .container {
         padding: 0px;
@@ -34,22 +41,10 @@
 }
 
 @media screen and (max-width : 768px) {
-    div.empty {
-        display: none;
-    }
+
     .sub-main-lesson:hover .overlay {
         box-sizing: border-box;
-        padding: 150px 50px;
-    
-    }
-    
-}
-
-@media screen and (max-width : 710px) {
-
-    .container {
-        padding: 0px;
-        box-sizing: border-box;
+        padding: 90px 50px;
     }
     
     .container-form {
@@ -72,7 +67,7 @@
     }
 
     .column-1 {
-            width: 100%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;    
         text-align: center;
@@ -93,7 +88,9 @@
         width: 100%;
     }
 
+    
 }
+
 
 
 
@@ -106,42 +103,65 @@
 
 @media screen and (max-width : 576px) {
 
+   /* overlay hover */
+   .sub-main-lesson:hover .overlay {
+    display: flex;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.overlay h6 {
+    font-size: 1em;
+}
+
+.overlay p {
+    font-size: .7em;
+}
+
+/* end overlay hover */
 
 /* container-form */
 
     .column-1, .column-2 {
         padding: 15px;
-
-    }
-        /* column-1 */
-    .column-1 {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;    
-        text-align: center;
     }
 
-    .column-1 h1 {
-        letter-spacing: 5px;
-        font-size: 3.5em;
-        line-height: 120%;
-        width: 100%;
-    }
-
-    .sub-column {
-        margin-top: 10px;
-        width: 100%;
-    }
-    .column-1 p {
-        letter-spacing: 2px;
-        font-size: 1.1em;
-        color: var(--text-color);
-    }
+        .column-1, .column-2 {
+            padding: 15px;
+    
+        }
+            /* column-1 */
+        .column-1 {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;    
+            text-align: center;
+        }
+    
+        .column-1 h1 {
+            letter-spacing: 5px;
+            font-size: 3.5em;
+            line-height: 120%;
+            width: 100%;
+        }
+    
+        .sub-column {
+            margin-top: 10px;
+            width: 100%;
+        }
+        .column-1 p {
+            letter-spacing: 2px;
+            font-size: 1.1em;
+            color: var(--text-color);
+        }
 
         /* end of column-1 */
 
         /* column-2 */
-  
+        button.btn{
+            font-size: .9em;
+        }
         /* end of column-2 */
 /* end of container-form */
 }
