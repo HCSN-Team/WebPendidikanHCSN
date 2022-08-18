@@ -1,0 +1,178 @@
+:root {
+    --text-color: #eee;
+    --text-icon: #101010;
+    --heading-text-color: #eee;
+    --container-bg: #ffffff;
+    --main-bg: #eee;
+    --font-size: 12px;
+    --font-weight: 200;
+}
+
+
+body  {
+    margin : 0;
+    padding : 0;
+    background-color: #101010;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-main2 {
+    margin : 100px auto;
+    width: 80%;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
+    gap: 35px;
+    border-radius: 5px;
+    text-align: center;
+  
+}
+
+.content-main2 {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 39px 9px rgba(255, 255, 255, 0.238);
+    height: 150px;
+    padding: 25px;
+    margin-right : 5px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    transition: all .1s ease-in-out;
+    filter: drop-shadow(2px 2px 3px black );
+}
+
+.content-main2:hover {
+    position: relative;
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 3px black );
+
+}
+
+.content-main2 img:hover {
+    animation: animationicon .3s ease-in-out infinite alternate ;
+}
+
+/* animasi icon */
+
+@keyframes animationicon {
+    
+    0% {
+        transform: rotate(15deg) ;
+    }
+
+    100% {
+        transform: rotate(-15deg);
+        transform-origin: center center;
+    }
+}
+
+/* end animation icon */
+
+
+.content-main2 p {
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--text-icon);
+}
+
+
+
+/* section lesson */
+
+
+.container-lesson {
+    margin : 50px auto;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    box-sizing: border-box;    
+    text-align: center;    
+}
+
+.lesson-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
+    width: 80%;
+    gap: 35px;
+    margin : 50px auto;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+h2.lesson-tittle {
+    color: var(--heading-text-color);
+    font-weight: 600;
+    font-size: 3em;
+    font-family: 'Poppins';
+
+}
+
+.main-lesson {
+    width: 100%;
+}
+
+.sub-main-lesson {
+    position: relative;
+    width: 100%;  
+    transition: all .3s ease-in-out;
+      
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.overlay h6 {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: white;
+    text-align: start;
+}
+.overlay p {
+    font-size: .8em;
+    color: white;
+    font-weight: 400;
+    text-align: start;
+}
+/* sub-main-lesson hover */
+
+.sub-main-lesson:hover {
+    transform: scale(1.05);
+    position: relative;
+}
+
+.sub-main-lesson:hover .overlay {
+    display: flex;
+}
+
+
+/* end main hover */
+
+.main-lesson img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;    
+}
+
+.main-lesson p.img-tittle {
+    color: var(--text-color);
+    font-weight: 500;
+    margin-top: 25px;
+}
