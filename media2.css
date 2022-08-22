@@ -1,0 +1,54 @@
+/*@media (max-width: 1000px){
+    .logo img{
+        display: none;
+    }
+}*/
+
+/*tablet*/
+@media (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .major {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    footer { position: static; }
+}
+
+
+/*HP*/
+@media (max-width: 670px) {
+    .lesson {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .major {
+        width: 100%;
+    }
+
+    .footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+
